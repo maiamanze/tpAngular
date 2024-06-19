@@ -5,10 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListadoPeliculasComponent } from './listado-peliculas/listado-peliculas.component';
 
-import { HttpClient } from '@angular/common/http';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ListaVerLuegoComponent } from './lista-ver-luego/lista-ver-luego.component';
 import { SuscribirsePagComponent } from './suscribirse-pag/suscribirse-pag.component';
+import { HomePeliculasComponent } from './home-peliculas/home-peliculas.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +16,12 @@ import { SuscribirsePagComponent } from './suscribirse-pag/suscribirse-pag.compo
     ListadoPeliculasComponent,
     AboutUsComponent,
     ListaVerLuegoComponent,
-    SuscribirsePagComponent
+    SuscribirsePagComponent,
+    HomePeliculasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // HttpClient,
   ],
   providers: [],
   bootstrap: [AppComponent]

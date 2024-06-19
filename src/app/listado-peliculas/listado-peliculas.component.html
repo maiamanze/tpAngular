@@ -1,5 +1,5 @@
 <h2> Movies </h2>
-<div class="divPeliculas col-9">
+<div class="divPeliculas">
     <div class="card" *ngFor="let p of peliculas" style="width: 13rem;">
         <img src="{{p.image}}" class="card-img-top">
         <div class="card-body">
@@ -10,8 +10,8 @@
             <li class="list-group-item">Genre: <span *ngFor="let g of p.genre">{{g}}, </span> </li>
             <li class="list-group-item">Release year: {{p.year}}</li> 
         </ul>
-        <div class="botonesCard card-body">
-            <button type="button" class="btn btn-outline-success">Watch later</button>
+        <div class="botonCard card-body">
+            <button (click)="addToWatchLater(p)" type="button" class="btn btn-outline-success">Watch later</button>
         </div>
     </div>
 </div>

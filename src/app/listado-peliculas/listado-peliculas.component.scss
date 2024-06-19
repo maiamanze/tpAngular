@@ -4,7 +4,7 @@ h2 {
 
 .card {
     font-size: smaller;
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .divPeliculas {
@@ -13,12 +13,7 @@ h2 {
     justify-content: space-around;
 }
 
-.botonLike {
-    display: flex;
-    justify-self: center;
-}
-
-.botonesCard {
+.botonCard {
     display: flex;
     align-items: center;
     justify-content: space-around;

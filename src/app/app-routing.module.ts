@@ -4,11 +4,11 @@ import { ListadoPeliculasComponent } from './listado-peliculas/listado-peliculas
 import { AboutUsComponent } from './about-us/about-us.component';
 import { SuscribirsePagComponent } from './suscribirse-pag/suscribirse-pag.component';
 import { ListaVerLuegoComponent } from './lista-ver-luego/lista-ver-luego.component';
+import { HomePeliculasComponent } from './home-peliculas/home-peliculas.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'peliculas', pathMatch: 'full'},
-  { path: 'peliculas', component: ListadoPeliculasComponent},
-  { path: 'peliculas', component: ListaVerLuegoComponent},
+  { path: 'peliculas', component: HomePeliculasComponent},
   { path: 'about', component: AboutUsComponent},
   { path: 'suscribe', component: SuscribirsePagComponent}
 ];
