@@ -1,31 +1,8 @@
-<<<<<<< HEAD
-# GoodMovies
+Nombre: Manze Cordeiro Maia
+DNI: 46364081
+Email: maia.manze@gmail.com
+Sede Tandil
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+Decidí hacer el proyecto sobre una API de películas obtenida de RapidApi, donde en el Home se observa el listado de las películas con su información (portada, título, descripción, género y año de estreno) junto con un "Old Movie" en amarillo indicando que es vieja EN CASO DE que su año de estreno sea previo a los años 2000, y un botón de ver más tarde que permite agregar esa película (su título) a la lista perteneciente al segundo componente del Home, a la derecha, la cual también permite sacarla (insinuando que ya se vio) apretando el checkbox. 
+Por otro lado, tenemos la sección de "About", la cual contiene un texto ficticio sobre la página, y la sección de "Subscribe" la cual contiene un formulario para suscribirse a la página, notificando con un alert cuando se envía. Esta sección está un tanto desprolija ya que no era el foco del proyecto, pero decidí incluirla por el ruteo.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# tpAngular
->>>>>>> 73b35750a1dbfc1655a9e870c73525c6e4132251
