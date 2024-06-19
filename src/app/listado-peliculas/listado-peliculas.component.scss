@@ -1,0 +1,26 @@
+h2 {
+    padding-top: 30px;
+}
+
+.card {
+    font-size: smaller;
+    margin: 10px;
+}
+
+.divPeliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.botonLike {
+    display: flex;
+    justify-self: center;
+}
+
+.botonesCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

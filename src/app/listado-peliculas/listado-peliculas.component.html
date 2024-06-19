@@ -1,1 +1,17 @@
-<p>listado-peliculas works!</p>
+<h2> Movies </h2>
+<div class="divPeliculas col-9">
+    <div class="card" *ngFor="let p of peliculas" style="width: 13rem;">
+        <img src="{{p.image}}" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">{{p.title}}</h5>
+            <p class="card-text">{{p.description}} <span class="badge text-bg-warning" *ngIf="p.year < 2000">Old movie</span> </p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Genre: <span *ngFor="let g of p.genre">{{g}}, </span> </li>
+            <li class="list-group-item">Release year: {{p.year}}</li> 
+        </ul>
+        <div class="botonesCard card-body">
+            <button type="button" class="btn btn-outline-success">Watch later</button>
+        </div>
+    </div>
+</div>
