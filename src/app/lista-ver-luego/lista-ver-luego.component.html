@@ -1,5 +1,6 @@
 <div>
     <h2>To watch later</h2>
+    <p *ngIf="moviesList?.length == 0"> The list is empty! </p>
     <ul class="list-group">
         <li *ngFor="let p of moviesList" class="list-group-item">
           <input class="form-check-input me-1" type="checkbox" (change)="removeMovie(p)">

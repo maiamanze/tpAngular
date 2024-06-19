@@ -18,7 +18,7 @@ export class WatchLaterListService {
     if (!item) {
       this._list.push({... p});
     } else {
-      alert("La película ya está agregada a la lista!");
+      alert("La película ya está agregada a la lista");
     }
 
     this.moviesList.next(this._list);
