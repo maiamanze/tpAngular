@@ -13,12 +13,10 @@ export class DataPelisService {
   constructor(private http: HttpClient) { }
 
   public getAll(): Observable<Pelicula[]> {
-    const headers = new HttpHeaders({
+    return this.http.get<Pelicula[]>(this.URL, {headers:{
       'X-RapidAPI-Key': 'e8ef067749msha8d765b032c5e25p1cd27ejsn5f3bafabf32f',
-      'x-rapidapi-host': 'imdb-top-100-movies.p.rapidapi.com',
-    });
-
-    return this.http.get<Pelicula[]>(this.URL, {headers});
+      'X-Rapidapi-Host': 'imdb-top-100-movies.p.rapidapi.com'
+    }});
   }
 }
 

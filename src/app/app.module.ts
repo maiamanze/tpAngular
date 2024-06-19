@@ -9,6 +9,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ListaVerLuegoComponent } from './lista-ver-luego/lista-ver-luego.component';
 import { SuscribirsePagComponent } from './suscribirse-pag/suscribirse-pag.component';
 import { HomePeliculasComponent } from './home-peliculas/home-peliculas.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomePeliculasComponent } from './home-peliculas/home-peliculas.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
